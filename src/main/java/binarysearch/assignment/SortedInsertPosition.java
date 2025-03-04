@@ -1,7 +1,7 @@
 package binarysearch.assignment;
 
 public class SortedInsertPosition {
-    public int searchInsert(int[] nums, int target) {
+    public static int searchInsert(int[] nums, int target) {
         int lo = 0, hi = nums.length - 1;
 
         while (lo <= hi) {
