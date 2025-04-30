@@ -10,18 +10,16 @@ public class FindAthMagicalNumberTest {
 
     @Test
     public void testSampleCase() {
-
         assertEquals(2, magicalNumber.findAthMagicalNumber(1, 2, 3));
         assertEquals(6, magicalNumber.findAthMagicalNumber(4, 2, 3));
     }
 
     @Test
     public void testSmallInput() {
-
         assertEquals(2, magicalNumber.findAthMagicalNumber(1, 2, 3));
         assertEquals(3, magicalNumber.findAthMagicalNumber(2, 2, 3));
-        assertEquals(4, magicalNumber.findAthMagicalNumber(3, 2, 3));
 
+        assertEquals(4, magicalNumber.findAthMagicalNumber(3, 2, 3));
     }
 
     @Test
@@ -41,7 +39,6 @@ public class FindAthMagicalNumberTest {
     public void testOneIsMultipleOfAnother() {
         assertEquals(25, magicalNumber.findAthMagicalNumber(5, 5, 10));
         assertEquals(30, magicalNumber.findAthMagicalNumber(6, 5, 10));
-
     }
 
 }
