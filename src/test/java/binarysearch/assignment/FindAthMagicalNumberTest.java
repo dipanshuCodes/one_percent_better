@@ -18,7 +18,6 @@ public class FindAthMagicalNumberTest {
     public void testSmallInput() {
         assertEquals(2, magicalNumber.findAthMagicalNumber(1, 2, 3));
         assertEquals(3, magicalNumber.findAthMagicalNumber(2, 2, 3));
-
         assertEquals(4, magicalNumber.findAthMagicalNumber(3, 2, 3));
     }
 
