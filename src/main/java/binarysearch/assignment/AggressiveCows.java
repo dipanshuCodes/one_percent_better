@@ -21,7 +21,7 @@ Farmer John has built a new long barn with N stalls.
 *
 *
 * */
-public class AggressiveCowsProblem {
+public class AggressiveCows {
 
     public int solve(int[] A, int B) {
         int n = A.length;

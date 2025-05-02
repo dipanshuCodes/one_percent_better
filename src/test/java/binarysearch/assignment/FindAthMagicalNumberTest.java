@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FindAthMagicalNumberTest {
 
-    FindAthMagicalNumber magicalNumber = new FindAthMagicalNumber();
+    AthMagicalNumber magicalNumber = new AthMagicalNumber();
 
     @Test
     public void testSampleCase() {

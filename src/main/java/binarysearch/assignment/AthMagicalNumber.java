@@ -1,6 +1,21 @@
 package binarysearch.assignment;
 
-public class FindAthMagicalNumber {
+/*
+* // Problem Description //
+* You are given three positive integers, A, B, and C.
+* Any positive integer is magical if divisible by either B or C.
+* Return the Ath smallest magical number. Since the answer may be very large, return modulo 10^9 + 7.
+* Note: Ensure to prevent integer overflow while calculating.
+*
+* // Problem Constraints //
+* 1 <= A <= 10^9
+* 2 <= B, C <= 40000
+*
+* */
+
+
+
+public class AthMagicalNumber {
 
     static int GCD(int u, int v)
     {

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AggressiveCowsTest {
 
-    AggressiveCowsProblem aggressiveCows = new AggressiveCowsProblem();
+    AggressiveCows aggressiveCows = new AggressiveCows();
 
     @Test
     public void testSampleCase() {
