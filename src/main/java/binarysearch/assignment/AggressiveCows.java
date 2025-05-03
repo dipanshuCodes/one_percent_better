@@ -52,4 +52,7 @@ public class AggressiveCows {
         }
         return cnt>=B;
     }
+
+    // TC = O(N*log(range)) - range -> A[n-1] - 1
+    // SC = O(1)
 }
