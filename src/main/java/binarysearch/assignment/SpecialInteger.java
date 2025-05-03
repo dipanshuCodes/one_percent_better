@@ -35,7 +35,6 @@ public class SpecialInteger {
 
     private boolean isPossible(int[] A, int mid, int B){
         int n = A.length;
-        int st = 0;
         int sum = 0;
         int ans = 0;
         for(int i = 0; i<mid; i++){
@@ -50,7 +49,7 @@ public class SpecialInteger {
         }
 
         return true;
-    };
+    }
 
     // TC = O(N*log(N))
     // SC = O(1)
