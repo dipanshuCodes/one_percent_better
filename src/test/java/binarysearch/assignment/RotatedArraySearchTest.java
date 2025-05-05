@@ -11,7 +11,7 @@ public class RotatedArraySearchTest {
     @Test
     public void testSampleCase() {
         assertEquals(0,arraySearch.search(new int[]{4, 5, 6, 7, 0, 1, 2, 3}, 4));
-        assertEquals(3, arraySearch.search(new int[]{9, 10, 3, 5, 6, 8}, 5));
+        assertEquals(2, arraySearch.search(new int[]{9, 10, 3, 5, 6, 8}, 3));
     }
 
     @Test
