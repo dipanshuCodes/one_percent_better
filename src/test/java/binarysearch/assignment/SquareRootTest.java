@@ -1,4 +1,4 @@
-package binarysearch.additional;
+package binarysearch.assignment;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package binarysearch.additional;
+package binarysearch.assignment;
 
 /*
 * // PROBLEM DESCRIPTION
